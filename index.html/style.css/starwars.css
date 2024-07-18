@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: antiquewhite;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 2rem;
+    color: #333;
+}
+
+.genre {
+    color: #007BFF;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+}
+
+.poster {
+    max-width: 200px;
+    border-radius: 8px;
+}
+
+.details {
+    margin-left: 20px;
+}
+
+.details h2 {
+    font-size: 1.5rem;
+    color: #333
+}
+
+.details p {
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.info p {
+    margin: 5px 0;
+}
+
+.rating-price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.rating {
+    font-size: 1.2rem;
+    color: #007BFF;
+}
+
+.price {
+    font-size: 1.2rem;
+    color: #007BFF;
+}
+
+.actions {
+    margin-top: 20px;
+}
+
+.buy-button, .trailer-button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-right: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.trailer-button {
+    background-color: #28a745;
+}
+
+.buy-button:hover, .trailer-button:hover {
+    opacity: 0.6;
+}
